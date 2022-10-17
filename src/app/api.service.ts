@@ -6,11 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
 
-  constructor(private http:HttpClient) { }
-
-  viewfriendData=()=>{
-    return this.http.get("http://dummyapifriends.herokuapp.com/view")
-  }
+  constructor() { }
 
   
 }
